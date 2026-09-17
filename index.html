@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Install Elreen's Toolbox through the VRChat Creator Companion.">
+  <title>Elreen's Toolbox for VCC</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, "Segoe UI", sans-serif;
+      background: #0e1118;
+      color: #f5f7fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: radial-gradient(circle at top, #282044, #0e1118 55%);
+    }
+
+    .card {
+      width: min(640px, 100%);
+      padding: 32px;
+      border: 1px solid #393653;
+      border-radius: 20px;
+      background: #171a25;
+      box-shadow: 0 24px 80px #0008;
+    }
+
+    .eyebrow {
+      color: #ab8cff;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .14em;
+    }
+
+    h1 {
+      margin: 8px 0 10px;
+      font-size: clamp(28px, 6vw, 40px);
+    }
+
+    p, li {
+      color: #b9bdca;
+      line-height: 1.55;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 26px 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 18px;
+      border-radius: 10px;
+      background: #8b6cff;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    .button:hover { background: #9a80ff; }
+    .secondary { background: #292d3d; color: #e7e9f2; }
+    .secondary:hover { background: #34394d; }
+
+    .url {
+      overflow-wrap: anywhere;
+      padding: 13px 14px;
+      border: 1px solid #393653;
+      border-radius: 10px;
+      background: #0e1118;
+      color: #cfc5ff;
+      font: 13px Consolas, monospace;
+    }
+
+    ol { padding-left: 22px; margin-bottom: 0; }
+
+    .note {
+      margin-top: 22px;
+      padding: 14px;
+      border-radius: 10px;
+      background: #12291f;
+      color: #bcf5dc;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="eyebrow">ELREEN'S TOOLBOX</div>
+    <h1>Install with VCC</h1>
+    <p>Install the public VCC package first. After your Jinxxy license has been verified, the complete Toolbox is downloaded directly into your Unity project.</p>
+
+    <div class="actions">
+      <a class="button" href="vcc://vpm/addRepo?url=https%3A%2F%2Felreen.github.io%2Fvpm%2Findex.json">Add to VCC</a>
+      <a class="button secondary" href="index.json">Repository JSON</a>
+    </div>
+
+    <div class="url">https://elreen.github.io/vpm/index.json</div>
+
+    <ol>
+      <li>Add this repository to VCC.</li>
+      <li>Select <strong>Manage Project</strong> for your Unity project.</li>
+      <li>Add <strong>Elreen's Toolbox Installer</strong>.</li>
+      <li>In Unity, open <strong>Tools → Elreen's Toolbox Installer</strong> and activate the Toolbox once.</li>
+    </ol>
+
+    <div class="note">Installer updates appear in VCC. Toolbox updates are checked from the installer window in Unity.</div>
+  </main>
+</body>
+</html>

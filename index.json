@@ -1,0 +1,25 @@
+{
+  "name": "Elreen's Toolbox",
+  "id": "com.elreen.tools.repository",
+  "url": "https://elreen.github.io/vpm/index.json",
+  "author": "support@elreen.tools",
+  "packages": {
+    "com.elreen.tools.installer": {
+      "versions": {
+        "0.2.2": {
+          "name": "com.elreen.tools.installer",
+          "displayName": "Elreen's Toolbox Installer",
+          "version": "0.2.2",
+          "unity": "2022.3",
+          "description": "Small public installer that verifies an Elreen Toolbox license and installs the protected editor package.",
+          "author": {
+            "name": "Elreen",
+            "email": "support@elreen.tools"
+          },
+          "url": "https://elreen.github.io/vpm/packages/com.elreen.tools.installer-0.2.2.zip",
+          "zipSHA256": "a584e936200aa125ae794818c529733e0dc07db774a56b4cdaafdbb17d01a560"
+        }
+      }
+    }
+  }
+}
