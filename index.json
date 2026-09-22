@@ -6,6 +6,19 @@
   "packages": {
     "com.elreen.tools.installer": {
       "versions": {
+        "0.2.5": {
+          "name": "com.elreen.tools.installer",
+          "displayName": "Elreen's Toolbox Installer",
+          "version": "0.2.5",
+          "unity": "2022.3",
+          "description": "Small public installer that verifies an Elreen Toolbox license and installs the protected editor package.",
+          "author": {
+            "name": "Elreen",
+            "email": "support@elreen.tools"
+          },
+          "url": "https://elreen.github.io/vpm/packages/com.elreen.tools.installer-0.2.5.zip",
+          "zipSHA256": "9cbaa8d689111e72877873595df89381fa7758a6d14c8594e82f6fa75a603e34"
+        },
         "0.2.4": {
           "name": "com.elreen.tools.installer",
           "displayName": "Elreen's Toolbox Installer",
